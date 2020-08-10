@@ -1,0 +1,17 @@
+{
+"tiles" : [ [1, 1, 1, 1 ],
+            [1, 1, 1, 1 ],
+            [1, 1, 1, 1 ],
+            [1, 1, 1, 1 ],
+            [1, 1, 1, 1 ],
+    ],
+  
+  "targetScore" : 500,
+  "moves" : 15,
+  
+  "numColumns" : 4,
+  "numRows" : 5,
+  "curentLevel": 1,
+  
+  "name" : "Level 1"
+}
