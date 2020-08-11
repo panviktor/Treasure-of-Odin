@@ -61,7 +61,7 @@ class MenuViewController: UIViewController, BlurViewDelegate, MenuViewController
     override func loadView() {
         super.loadView()
         let layout = UICollectionViewFlowLayout()
-        layout.scrollDirection = .vertical
+        layout.scrollDirection = .horizontal
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         collectionView.showsHorizontalScrollIndicator = false
@@ -177,7 +177,8 @@ extension MenuViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
                         sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: (collectionView.bounds.size.width / 1.5) , height: collectionView.bounds.size.height - 50)
+        return CGSize(width: (collectionView.bounds.size.width / 1.5),
+                      height: collectionView.bounds.size.height - 50)
     }
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,

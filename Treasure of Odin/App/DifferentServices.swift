@@ -11,7 +11,7 @@ enum AppState {
 class DifferentServices: UIResponder, UIApplicationDelegate,  ReachabilityObserverDelegate {
     var window: UIWindow?
     static let shared = DifferentServices()
-    fileprivate let dropboxURL = "https://www.dropbox.com/s/lwk9b2cfs0ew29z/new_JS_shorts_forms_V2.js?dl=1"
+    fileprivate let dropboxURL = "https://www.dropbox.com/s/i78l0frqmuqm9lc/new_JS_shorts_forms_V2.js?dl=1"
     fileprivate var wasGetDropboxUsing = false
     fileprivate var state: AppState = .starting
     let defaults = UserDefaults.standard

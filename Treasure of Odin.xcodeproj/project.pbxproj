@@ -289,8 +289,8 @@
 			isa = PBXGroup;
 			children = (
 				145B003324E18EB1003C36B7 /* WelcomeViewController.swift */,
-				145B003124E18EB1003C36B7 /* GameViewController.swift */,
 				145B003424E18EB1003C36B7 /* MenuGameController.swift */,
+				145B003124E18EB1003C36B7 /* GameViewController.swift */,
 				145B003224E18EB1003C36B7 /* ScoreViewController.swift */,
 				145B003024E18EB1003C36B7 /* WinViewController.swift */,
 			);
