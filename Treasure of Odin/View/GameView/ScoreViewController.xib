@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScoreViewController" customModule="CookieCrunch" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScoreViewController" customModule="Treasure_of_Odin" customModuleProvider="target">
             <connections>
                 <outlet property="firstScore" destination="SyU-RR-Yzv" id="Ntl-OI-7vn"/>
                 <outlet property="secondScore" destination="FEp-bP-uL3" id="eaZ-hy-3Fl"/>
@@ -26,37 +26,37 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your best score!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EEs-mL-C2N">
-                    <rect key="frame" x="15" y="30" width="290" height="64"/>
-                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="40"/>
+                    <rect key="frame" x="15" y="35" width="290" height="44.5"/>
+                    <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="40"/>
                     <color key="textColor" red="0.80392156862745101" green="0.65098039215686276" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="ui4-XT-aj3">
-                    <rect key="frame" x="92.5" y="167.5" width="135.5" height="233.5"/>
+                    <rect key="frame" x="110" y="175.5" width="100" height="217.5"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SyU-RR-Yzv">
-                            <rect key="frame" x="0.0" y="0.0" width="135.5" height="63.5"/>
-                            <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="50"/>
+                            <rect key="frame" x="0.0" y="0.0" width="100" height="57.5"/>
+                            <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="50"/>
                             <color key="textColor" red="0.93333333333333335" green="0.90980392156862744" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="800" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FEp-bP-uL3">
-                            <rect key="frame" x="18" y="94.5" width="99" height="57"/>
-                            <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="45"/>
+                            <rect key="frame" x="16.5" y="88.5" width="67.5" height="52"/>
+                            <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="45"/>
                             <color key="textColor" red="0.82745098039215681" green="0.82745098039215681" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="300" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ML-Dj-TJL">
-                            <rect key="frame" x="26" y="182.5" width="83.5" height="51"/>
-                            <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="40"/>
+                            <rect key="frame" x="20" y="171.5" width="60" height="46"/>
+                            <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="40"/>
                             <color key="textColor" red="0.80392156862745101" green="0.49803921568627452" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
                 </stackView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fVI-IZ-vzG">
-                    <rect key="frame" x="93.5" y="430" width="133" height="108"/>
-                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="60"/>
+                    <rect key="frame" x="81.5" y="436" width="157" height="97"/>
+                    <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="60"/>
                     <state key="normal" title="Reset">
                         <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
@@ -67,7 +67,7 @@
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="EEs-mL-C2N" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="30" id="1hc-Cj-kMb"/>
+                <constraint firstItem="EEs-mL-C2N" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="35" id="1hc-Cj-kMb"/>
                 <constraint firstItem="fVI-IZ-vzG" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="4oi-g8-GP3"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="C4o-8t-dOv" secondAttribute="trailing" id="4z4-5U-5rC"/>
                 <constraint firstItem="C4o-8t-dOv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="HNo-vQ-onM"/>
@@ -77,13 +77,13 @@
                 <constraint firstAttribute="trailing" secondItem="EEs-mL-C2N" secondAttribute="trailing" constant="15" id="jOu-yi-mvM"/>
                 <constraint firstAttribute="bottom" secondItem="C4o-8t-dOv" secondAttribute="bottom" id="oHj-Wo-Abg"/>
                 <constraint firstItem="ui4-XT-aj3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vM4-3F-WLz"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="fVI-IZ-vzG" secondAttribute="bottom" constant="30" id="wFI-cB-SLn"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="fVI-IZ-vzG" secondAttribute="bottom" constant="35" id="wFI-cB-SLn"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="138.75" y="111.97183098591549"/>
         </view>
     </objects>
     <resources>
-        <image name="scoreWallpaper" width="720" height="1157.5"/>
+        <image name="scoreWallpaper" width="709" height="1157.5"/>
     </resources>
 </document>
